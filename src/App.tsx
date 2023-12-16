@@ -43,9 +43,9 @@ function App() {
         <h1 className="text-4xl font-bold text-center">CoinGecko</h1>
       </Link>
       <Routes>
-  <Route path="/" element={<CoinList coins={coins} />} />
-  <Route path="/coin/:id" element={<CoinInfo />} />
-</Routes>
+        <Route path="/" element={<CoinList coins={coins} />} />
+        <Route path="/coin/:id" element={<CoinInfo />} />
+      </Routes>
     </div>
   );
 }
